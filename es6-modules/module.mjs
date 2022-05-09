@@ -12,5 +12,7 @@ function cube(num){
 
 export {
     square,
-    cube
+    cube,
 }
+
+export * as messages from './module2.mjs'

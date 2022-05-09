@@ -6,3 +6,4 @@
 import * as util from './module.mjs'
 
 console.log(util.square(5),util.cube(5));
+console.log(util.messages);
