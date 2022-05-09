@@ -1,6 +1,8 @@
 //default import
 // import square from "./module.mjs";
 
-import {square,cube} from './module.mjs'
+// import {square,cube} from './module.mjs'
 
-console.log(square(5),cube(5));
+import * as util from './module.mjs'
+
+console.log(util.square(5),util.cube(5));
