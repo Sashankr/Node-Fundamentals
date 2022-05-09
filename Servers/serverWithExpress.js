@@ -3,7 +3,28 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
-    res.send('Hello World');
+    res.send('hello world');
+})
+
+app.get('/what-is-my-method',(req,res)=>{
+    res.send('GET');
+})
+
+app.post('/what-is-my-method',(req,res)=>{
+    res.send('POST');
+})
+
+app.put('/what-is-my-method',(req,res)=>{
+    res.send('PUT');
+})
+
+
+app.delete('/what-is-my-method',(req,res)=>{
+    res.send('DELETE');
+})
+
+app.patch('/what-is-my-method',(req,res)=>{
+    res.send('PATCH');
 })
 
 app.post('/something',(req,res)=>{
